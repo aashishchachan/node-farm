@@ -2,6 +2,9 @@ const http = require('http');
 const url = require('url');
 const fs = require('fs');
 
+const devdata = fs.readFileSync(`${__dirname}/views/data/data.json`)
+const dataObj= JSON.parse(devdata);
+
 const server = http.createServer((req, res)=>{
     console.log("Server Created!");
     const path= req.url;
