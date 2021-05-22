@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/aashishchachan/node-farm/issues"
   },
-  "homepage": "https://github.com/aashishchachan/node-farm#readme"
+  "homepage": "https://github.com/aashishchachan/node-farm#readme",
+  "dependencies": {
+    "nodemon": "^2.0.7"
+  }
 }
